@@ -19,8 +19,9 @@ export class Satellite {
     this.launchDate=launchDate;
     }
     shouldShowWarning() {
+      let warnSign= document.getElementsByClassName('warning');
         if (this.type==="Space Debris") {
-           return true;
+          return true;
           } else {
             return false;
         
