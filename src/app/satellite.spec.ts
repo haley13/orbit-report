@@ -5,3 +5,4 @@ describe('Satellite', () => {
     expect(new Satellite()).toBeTruthy();
   });
 });
+
